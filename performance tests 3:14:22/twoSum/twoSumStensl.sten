@@ -1,0 +1,12 @@
+
+var [int] array = [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]
+for (0,array.length()-1) {(int index)
+    array[index] = index
+}
+for (0,array.length()-1) {(int index1)
+    for (index1,array.length()-1) {(int index2)
+    	if (array[index1]+(array[index2]) == 197) {
+	   println(index1+index2)
+	}
+    }
+}

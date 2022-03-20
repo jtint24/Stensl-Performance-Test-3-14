@@ -1,0 +1,10 @@
+area := 0
+for x := 0 to 100 do
+	for y := 0 to 100 do
+		radiusSQ := (50-x)*(50-x) + (50-y)*(50-y)
+		if radiusSQ<2500 then
+			area := area + 1
+		endif
+	endfor
+endfor
+print area/2500

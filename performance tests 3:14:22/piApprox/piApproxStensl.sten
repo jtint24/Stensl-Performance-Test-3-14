@@ -1,0 +1,11 @@
+var float area = 0
+for (0,100) {(int x)
+    for (0,100) {(int y)
+    	var int radiusSQ = (50-x)*(50-x)+(50-y)*(50-y)
+	if (radiusSQ<2500) {
+	   area = area + 1
+	}
+   }
+}
+println(area/2500.0)
+

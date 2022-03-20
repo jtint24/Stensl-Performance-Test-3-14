@@ -1,0 +1,14 @@
+dvanced. it is rather for us to be here dedicated to the great task remaining before us—that from these honored dead we take increased devotion to that cause for which they here gave the last full measure of devotion—that we here highly resolve that these dead shall not have died in vain—that this nation, under god, shall have a new birth of freedom, and that government of the people, by the people, for the people, shall not perish from the earth.”
+for count := 0 to 100 do
+    noAAddress := “”
+    for index := 0 to address.length do
+    	if not address.charAt(index) == “a” then
+           noAAddress := noAAddress + address.charAt(index)
+    	endif
+    endfor
+    reversedAddress := “”
+    for index := 0 to noAAddress.length do
+    	reversedAddress := noAAddress.charAt(index) + reversedAddress
+    endfor
+    print reversedAddress
+endfor
